@@ -24,6 +24,6 @@ public class HiLo {
 			playAgain = scan.next();
 		} while (playAgain.equalsIgnoreCase("y"));
 		
-		scan.close();
+		
 	}
 }
