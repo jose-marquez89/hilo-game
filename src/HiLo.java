@@ -7,7 +7,7 @@ public class HiLo {
         String playAgain = "";
 
         do {
-            int theNumber = (int)(Math.random() * 10 + 1);
+            int theNumber = (int)(Math.random() * 22 - 11);
             int guess = 0;
             while (guess != theNumber) {
                 System.out.println("Guess a number between 1 and 10:");
@@ -25,6 +25,7 @@ public class HiLo {
         } while (playAgain.equalsIgnoreCase("y"));
 
         // close scan because eclipse said so
+        System.out.println("I'm glad you decided to waste your precious time doing this. See you soon!");
         scan.close();
     }
 }
